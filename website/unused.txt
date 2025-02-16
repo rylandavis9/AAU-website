@@ -1,0 +1,62 @@
+<table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
+              <tr>
+                <th className="border border-lime-500 text-left px-6 py-1">Division (Girls & Boys)</th>
+                <th className="border  border-lime-500 text-left px-6 py-1">2024</th>
+                <th className="border  border-lime-500 text-left px-6 py-1">2025</th>
+                <th className="border  border-lime-500 text-left px-6 py-1">2026</th>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">8-Under</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2016 & After</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2017 & After</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2018 & After</td>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">9 Years Old</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2015</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2016</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2017</td>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">10 Years Old</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2014</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2015</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2016</td>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">11 Years Old</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2013</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2014</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2015</td>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">12 Years Old</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2012</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2013</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2014</td>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">13 Years Old</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2011</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2012</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2013</td>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">14 Years Old</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2010</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2011</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2012</td>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">15-16 Years Old</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2008-2009</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2009-2010</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2010-2011</td>
+              </tr>
+              <tr>
+                <td className="border border-lime-500 text-left px-6 py-1">17-18 Years Old</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2006-2007</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2007-2009</td>
+                <td className="border border-lime-500 text-left px-6 py-1">2008-2010</td>
+              </tr>
+            </table>
