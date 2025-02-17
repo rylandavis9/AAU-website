@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
 import  Navbar  from "@/components/navbar"
-import ContactForm from "@/components/contactForm"
 import {
   Carousel,
   CarouselContent,
@@ -9,15 +8,13 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-export default function Contact() {
+export default function Coach() {
   return (
-      <main>
+      <main className="items-center">
        <Navbar>
         </Navbar>
-        <div className="flex justify-center">
-          <ContactForm >
-
-          </ContactForm>
+        <div className="flex items-center">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYKwHpFYr9OSEailMObZ65X1tyAupuyiYMh7_jP5s-G6RW5g/viewform?embedded=true" className="w-screen h-lvh">Loading…</iframe>
         </div>
       </main>
     

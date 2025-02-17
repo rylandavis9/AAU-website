@@ -11,7 +11,7 @@ interface Props {
   const Bottombar = ({children, ...props}: Props) => {
     return (
       <div className="flex self-stretch flex-1 w-full min-h-10 bg-zinc-950">
-        <div className="grow shrink m-2 text-med font-semibold text-lime-500">Filler Things</div>
+        <div className="grow shrink m-2 text-med font-semibold text-lime-500"></div>
       </div>       
     );
   };

@@ -1,4 +1,11 @@
-
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 import React, { ReactNode } from 'react';
 import { buttonVariants } from "@/components/ui/button"
 import Link from 'next/link'
@@ -15,7 +22,15 @@ interface Props {
         <div className="grow shrink"><Link href="/" className={buttonVariants({ variant: "ghost" })}>Home</Link></div>
         <div className="grow shrink"><Link href="/calendar" className={buttonVariants({ variant: "ghost" })}>Calendar</Link></div>
         <div className="grow shrink"><Link href="/meets" className={buttonVariants({ variant: "ghost" })}>Meets</Link></div>
-        <div className="grow shrink"><Link href="/register" className={buttonVariants({ variant: "ghost" })}>Register</Link></div>
+        <div className="grow shrink">
+          <DropdownMenu>
+            <DropdownMenuTrigger>Register</DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-zinc-900">
+              <DropdownMenuItem><Link href="/register">Athlete Registration</Link></DropdownMenuItem>
+              <DropdownMenuItem><Link href="/coach">Volunteer Coach Form</Link></DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
         <div className="grow shrink"><Link href="/rules" className={buttonVariants({ variant: "ghost" })}>AAU Rules</Link></div>
         <div className="grow shrink"><Link href="/fees" className={buttonVariants({ variant: "ghost" })}>Fees</Link></div>
         <div className="grow shrink"><Link href="/uniforms" className={buttonVariants({ variant: "ghost" })}>Uniforms</Link></div>

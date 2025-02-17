@@ -97,9 +97,12 @@ export default function Home() {
                                                                                 <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. NOTE: OTHER FORMS OF DOCUMENTATION, INCLUDING BUT NOT LIMITED TO:
                                                                                 <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LETTERS FROM PUBLIC OR PRIVATE SCHOOLS AND/OR CITY/STATE PARKS &
                                                                                 RECREATION DEPARTMENTS ARE NOT ACCEPTABLE.</p>
-            <strong className="m-2 flex w-full place-content-center text-lg">Fee: Lorem ipsum dolor sit amet</strong>
-            <strong className="m-2 flex w-full place-content-center text-lg">Fee: Lorem ipsum dolor sit amet</strong>
             <a id="8u"></a>
+            <p className="text-zinc-900">
+              sephadbfuhgfuygdsyugfuhdsghufhsdgfhdshfghdsgfhjgsdhgfhdghfgdgfhdgfhdgfdhfghdfgd fhdgfh dhfghdgfhdgfhdgfhdgfhdgfhdfhdfhd fhdgfhd fhdgfhd f<br></br>
+              sep<br></br>
+              sep<br></br>
+            </p>
               <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
                 <tr>
                   <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
@@ -133,7 +136,7 @@ export default function Home() {
             <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
                 <tr>
                   <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
-                  <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-center px-6 py-1">9 & 10 Division</th>
+                  <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-center px-6 py-1">9 & 10 Divisions</th>
                   <th className="border border-l-0  border-y-lime-500 border-r-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
                 </tr>
                 <tr>
@@ -179,6 +182,59 @@ export default function Home() {
               sep<br></br>
               sep<br></br>
             </p>
+            <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
+                <tr>
+                  <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
+                  <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-center px-6 py-1">11 & 12 Divisions</th>
+                  <th className="border border-l-0  border-y-lime-500 border-r-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
+                </tr>
+                <tr>
+                  <td className="border border-r-0 border-lime-500 text-left px-6 py-1 bg-zinc-800">Track & Field Events</td>
+                  <td className="border border-l-0 border-lime-500 text-left px-6 py-1 bg-zinc-800"></td>
+                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Multi-Events (Pentathalon)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">80m Hurdles (8-30")</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">80m Hurdles (8-30")</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">200m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Long Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (6lbs)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">400m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">800m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Discus (1.0kg)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">800m Run (Girls)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">1500m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (6lbs)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">1500m Run (Boys)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">3000m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Turbo Javelin (400g)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">1500m Racewalk</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x100m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x400m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x800m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
+                
+              </table>
             <a id="1314"></a>
             <a id="1516"></a>
 
