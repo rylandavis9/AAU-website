@@ -1,16 +1,8 @@
 import React, { ReactNode } from 'react';
 import { buttonVariants } from "@/components/ui/button"
 import Link from 'next/link'
-import { Button } from "@/components/ui/button"
+
 import  Navbar  from "@/components/navbar"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-import Bottombar from '@/components/bottombar';
 
 export default function Home() {
   return (

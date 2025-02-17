@@ -1,20 +1,7 @@
-import { DropdownMenu, 
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger, } from "@/components/ui/dropdown-menu";
-import Image from "next/image";
-import { Button } from "@/components/ui/button"
+
 import  Navbar  from "@/components/navbar"
 import  Bottombar  from "@/components/bottombar"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
+
 
 export default function Home() {
   return (

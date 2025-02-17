@@ -1,7 +1,6 @@
 
 import React, { ReactNode } from 'react';
-import { buttonVariants } from "@/components/ui/button"
-import Link from 'next/link'
+
 
 interface Props {
   children?: ReactNode
