@@ -5,7 +5,7 @@ import  Bottombar  from "@/components/bottombar"
 
 export default function Home() {
   return (
-    <main className="w-screen">
+    <main className="w-screen flex flex-col">
       <div className="w-screen min-h-screen divide-y-4 divide-lime-500 text-lime-500">
         <Navbar>
         </Navbar>
@@ -14,17 +14,56 @@ export default function Home() {
         </div>
         <div className="flex m-auto self-stretch flex-1 flex-wrap flex-col lg:flex-row sm:flex-row md:flex-row">
           <div className="flex-1 flex flex-wrap align-center border-solid border-lime-500 border-2">
-            <strong className="m-2 flex w-full place-content-center text-lg">The following must be payed before athletes can practice:</strong>
-            <strong className="m-2 flex w-full place-content-center text-lg">Fee: Lorem ipsum dolor sit amet</strong>
-            <strong className="m-2 flex w-full place-content-center text-lg">Fee: Lorem ipsum dolor sit amet</strong>
-            <strong className="m-2 flex w-full place-content-center text-lg">Fee: Lorem ipsum dolor sit amet</strong>
+          <h2 className="ml-5 text-xl font-extrabold " >Follow the instructions to get registered</h2>
+                <ol className="ml-10 text-lg list-decimal">
+                    <li className="ml-10 text-lg list-decimal">Join AAU- <a href="https://aausports.org" target="_blank" className="underline">aausports.org</a>. This supplies us with the insurance we need to be able to offer this program.</li>
+                    <ul className="ml-10 text-lg list-disc">
+                      <li className="ml-10 text-lg list-disc">Create an account</li>
+                      <li className="ml-10 text-lg list-disc">Register for a membership</li>
+                      <ul className="ml-20 text-lg list-disc">
+                        <li>Youth Membership Application</li>
+                        <li>Track and Field (X-Country, Multi-Events)</li>
+                        <li>Extended Coverage if you plan on competing in the Neosho or Girard meets.</li>
+                        <li>Choose 1 year or 2 year membership ($22 or $44 per athlete)</li>
+                        <li>Choose your club: SWMO Track Club - W4TTA4</li>
+                      </ul>
+                    </ul>
+                    <li className="ml-10 text-lg list-decimal">Register for the SWMO Track Club</li>
+                    <ul className="ml-10 text-lg list-disc">
+                      <li className="ml-10 text-lg list-disc">Cost is $75. This pays for our equiptment, club fees, and other miscellaneous expenses.</li>
+                    </ul>
+                    <li className="ml-10 text-lg list-decimal">Download the Band app</li>
+                    <ul className="ml-10 text-lg list-disc">
+                      <li className="ml-10 text-lg list-disc">Join the SWMO Track Club 25</li>
+                      <li className="ml-10 text-lg list-disc">This will be our primary way of making announcements with a large group.</li>
+                      <ul className="ml-20 text-lg list-disc">
+                        <li>Ex: Practice cancellation, meet information, meet entry deadlines, etc.</li>
+                      </ul>
+                    </ul>
+                    <li className="ml-10 text-lg list-decimal">Order your complementary t-shirt</li>
+                    <ul className="ml-10 text-lg list-disc">
+                      <li className="ml-10 text-lg list-disc"><a href="https://swmotrackclubuniforms.itemorder.com/shop/sale/" target="_blank" className="underline">Link</a></li>
+                    </ul>    
+                </ol>
           </div>
-          <div className="flex-1 flex flex-wrap place-content-center border-solid border-lime-500 border-2">
-            <div className="m-2 flex place-content-center">
-              <strong className="m-2 text-pretty text-lg">Communication Info:</strong>
-            </div>
-            <div className="m-2 flex place-content-center">
-              <p className="m-2 text-pretty text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div className="flex-1 flex flex-wrap justify-items-startstart border-solid border-lime-500 border-2">
+            <div className="m-2 flex flex-col place-content-center">
+              <p className="m-2 text-pretty text-lg font-bold">Welcome to SWMO Track Club!<br></br></p>
+              <p className="m-2 text-pretty text-lg">We’re thrilled to kick off the inaugural season of SWMO Track Club, 
+                a competitive AAU Track and Field club dedicated to developing athletes of all skill levels. Whether you're sprinting towards personal bests, 
+                aiming for the podium, or just discovering your passion for the sport, this is the place for you!
+                <br></br>
+                <br></br>
+                Our mission is to include athletes from all southwest Missouri schools. We aim to foster a supportive, disciplined, 
+                and high-energy environment where athletes can grow, compete, and achieve their goals— on and off the track. 
+                Our experienced coaching staff will offer training at a variety of levels, and emphasize the team aspect of track & field. 
+                We’re here to help you learn and grow in your track and field experience. 
+              </p>
+              <p className="m-2 text-pretty text-lg font-bold"><br></br>2025 Parent Meeting!<br></br></p>
+              <p className="m-2 text-pretty text-lg">Monday, March 10th<br></br>5:30pm<br></br>Park in the WCHS pool parking lot
+                <br></br>Meet in Cardinal Theatre<br></br>
+              </p>
+              <a href="https://calendar.google.com/calendar/u/0?cid=Y18yMmVhZTQ1MzRlZDZkNmQ2ZDVmODU2ODVhNmU2NGJmMWY5OGIwYzhmMjY1MDZhOGQ2MjkzMGQxNzYyNDhmZmIwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank" className="underline">Get the sharable calendar link here!</a>
             </div>
           </div>
         </div>

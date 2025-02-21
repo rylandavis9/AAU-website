@@ -6,7 +6,7 @@ import  Navbar  from "@/components/navbar"
 
 export default function Home() {
   return (
-      <main className="align-middle" >
+      <main className="flex align-middle flex-col align-center justify-center" >
        <Navbar>
         </Navbar>
         <div className="grow shrink flex text-lime-500">
@@ -77,24 +77,26 @@ export default function Home() {
                 <td className="border border-lime-500 text-left px-6 py-1">2008-2010</td>
               </tr>
             </table>
-            <p className="m-2 flex w-full place-content-center text-lg">2. Proof of Age
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;a. Proof of age may be required at District, Regional Qualifier, and National Championship
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;events and whenever required and/or challenged.
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Acceptable Forms:
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Original Birth Certificate;
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. A notarized original birth certificate from the appropriate visiting authority;
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. A US Military Government Identification Card;
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. A valid passport (not expired) and/or;
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. A valid US driver’s license
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. NOTE: OTHER FORMS OF DOCUMENTATION, INCLUDING BUT NOT LIMITED TO:
-                                                                                <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LETTERS FROM PUBLIC OR PRIVATE SCHOOLS AND/OR CITY/STATE PARKS &
-                                                                                RECREATION DEPARTMENTS ARE NOT ACCEPTABLE.</p>
-            <a id="8u"></a>
-            <p className="text-zinc-900">
-              sephadbfuhgfuygdsyugfuhdsghufhsdgfhdshfghdsgfhjgsdhgfhdghfgdgfhdgfhdgfdhfghdfgd23 fhdgfh dhfghdgfhdgfhdgfhdgfhdgfhdfhdfhd fhdgfhd fhdgfhd f<br></br>
-              sep<br></br>
-              sep<br></br>
-            </p>
+            <div className="ml-10" >
+              <h2 className="ml-5 text-xl font-extrabold " >Proof Of Age</h2>
+                <ul className="ml-10 text-lg list-disc">
+                    <li>a. Proof of age may be required at District, Regional Qualifier, and National Championship events and whenever required and/or challenged.</li>
+                        <ul className="ml-10 text-lg list-disc">
+                            <li>Acceptable Forms:</li>
+                            <ul className="ml-10 text-lg list-disc">
+                              <li>Original Birth Certificate;</li>
+                              <li>A notarized original birth certificate from the appropriate visiting authority;</li>
+                              <li>A US Military Government Identification Card;</li>
+                              <li>A valid passport (not expired) and/or;</li>
+                              <li>A valid US driver’s license</li>
+                            </ul>
+                            <li>NOTE: OTHER FORMS OF DOCUMENTATION, INCLUDING BUT NOT LIMITED TO: LETTERS FROM PUBLIC OR PRIVATE SCHOOLS AND/OR CITY/STATE PARKS & RECREATION DEPARTMENTS ARE NOT ACCEPTABLE.</li>
+                        </ul>
+                    
+                </ul>
+            </div>
+            <div className="flex m-10 align-center justify-center">
+              <a id="8u"></a>
               <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
                 <tr>
                   <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
@@ -119,62 +121,56 @@ export default function Home() {
                 </tr>
                 
               </table>
-            <a id="910"></a>
-            <p className="text-zinc-900">
-              sephadbfuhgfuygdsyugfuhdsghufhsdgfhdshfghdsgfhjgsdhgfhdghfgdgfhdgfhdgfdhfghdfgd fhdgfh dhfghdgfhdgfhdgfhdgfhdgfhdfhdfhd fhdgfhd fhdgfhd f<br></br>
-              sep<br></br>
-              sep<br></br>
-            </p>
-            <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
-                <tr>
-                  <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
-                  <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-center px-6 py-1">9 & 10 Divisions</th>
-                  <th className="border border-l-0  border-y-lime-500 border-r-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
-                </tr>
-                <tr>
-                  <td className="border border-r-0 border-lime-500 text-left px-6 py-1 bg-zinc-800">Track & Field Events</td>
-                  <td className="border border-l-0 border-lime-500 text-left px-6 py-1 bg-zinc-800"></td>
-                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Multi-Events (Triathalon)</td>
-                </tr>
-                <tr>
-                  <td className="border border-lime-500 text-left px-6 py-1">100m Dash</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">1500m Race-walk</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (6lbs)</td>
-                </tr>
-                <tr>
-                  <td className="border border-lime-500 text-left px-6 py-1">200m Dash</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">Long Jump</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
-                </tr>
-                <tr>
-                  <td className="border border-lime-500 text-left px-6 py-1">400m Dash</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">200m Dash (Girls)</td>
-                </tr>
-                <tr>
-                  <td className="border border-lime-500 text-left px-6 py-1">800m Run</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (6lbs)</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">400m Dash (Boys)</td>
-                </tr>
-                <tr>
-                  <td className="border border-lime-500 text-left px-6 py-1">1500m Run</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">Turbo Javelin (400g)</td>
-                  <td className="border border-lime-500 text-left px-6 py-1"></td>
-                </tr>
-                <tr>
-                  <td className="border border-lime-500 text-left px-6 py-1">4x100m Relay</td>
-                  <td className="border border-lime-500 text-left px-6 py-1">4x400m Relay</td>
-                  <td className="border border-lime-500 text-left px-6 py-1"></td>
-                </tr>
-                
-              </table>
-            <a id="1112"></a>
-            <p className="text-zinc-900">
-              sephadbfuhgfuygdsyugfuhdsghufhsdgfhdshfghdsgfhjgsdhgfhdghfgdgfhdgfhdgfdhfghdfgd fhdgfh dhfghdgfhdgfhdgfhdgfhdgfhdfhdfhd fhdgfhd fhdgfhd f<br></br>
-              sep<br></br>
-              sep<br></br>
-            </p>
-            <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
+            </div>
+            <div className="flex m-10 align-center justify-center">
+              <a id="910"></a>
+              <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
+                  <tr>
+                    <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
+                    <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-center px-6 py-1">9 & 10 Divisions</th>
+                    <th className="border border-l-0  border-y-lime-500 border-r-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
+                  </tr>
+                  <tr>
+                    <td className="border border-r-0 border-lime-500 text-left px-6 py-1 bg-zinc-800">Track & Field Events</td>
+                    <td className="border border-l-0 border-lime-500 text-left px-6 py-1 bg-zinc-800"></td>
+                    <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Multi-Events (Triathalon)</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-lime-500 text-left px-6 py-1">100m Dash</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">1500m Race-walk</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">Shot Put (6lbs)</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-lime-500 text-left px-6 py-1">200m Dash</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">Long Jump</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-lime-500 text-left px-6 py-1">400m Dash</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">200m Dash (Girls)</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-lime-500 text-left px-6 py-1">800m Run</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">Shot Put (6lbs)</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">400m Dash (Boys)</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-lime-500 text-left px-6 py-1">1500m Run</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">Turbo Javelin (400g)</td>
+                    <td className="border border-lime-500 text-left px-6 py-1"></td>
+                  </tr>
+                  <tr>
+                    <td className="border border-lime-500 text-left px-6 py-1">4x100m Relay</td>
+                    <td className="border border-lime-500 text-left px-6 py-1">4x400m Relay</td>
+                    <td className="border border-lime-500 text-left px-6 py-1"></td>
+                  </tr>
+                  
+                </table>
+            </div>
+            <div className="flex m-10 align-center justify-center">
+              <a id="1112"></a>
+              <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
                 <tr>
                   <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
                   <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-center px-6 py-1">11 & 12 Divisions</th>
@@ -225,10 +221,176 @@ export default function Home() {
                   <td className="border border-lime-500 text-left px-6 py-1">4x800m Relay</td>
                   <td className="border border-lime-500 text-left px-6 py-1"></td>
                 </tr>
+                  
+              </table>
+            </div>
+            <div className="flex m-10 align-center justify-center">
+              <a id="1314"></a>
+              <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
+                <tr>
+                  <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
+                  <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-center px-6 py-1">13 & 14 Divisions</th>
+                  <th className="border border-l-0  border-y-lime-500 border-r-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
+                </tr>
+                <tr>
+                  <td className="border border-r-0 border-lime-500 text-left px-6 py-1 bg-zinc-800">Track & Field Events</td>
+                  <td className="border border-l-0 border-lime-500 text-left px-6 py-1 bg-zinc-800"></td>
+                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Multi-Events (Pentathalon)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">3000m Race-walk</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Hurdles (10-30" Girls)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">200m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Long Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Hurdles (10-33" Boys)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">400m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Triple Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (6lbs Girls)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">800m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (4kg Boys)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">1500m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Pole Vault</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">3000m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (4kg Boys)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Long Jump</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">200m Hurdles (5-30")</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (6lbs Girls)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">800m Run (Girls)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Hurdles (10-33" Boys)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Discus (1.0kg)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">1500m Run (Boys)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Hurdles (10-30" Girls)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Javelin (600g)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x800m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x100m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x400m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
+              </table>
+            </div>
+            <a id="1516"></a>
+            <div className="flex m-10 align-center justify-center">
+              <a id="1516"></a>
+              <table className="shadow-lg bg-zinc-950 border-solid border-lime-500">
+                <tr>
+                  <th className="border border-r-0  border-y-lime-500 border-l-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
+                  <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-right px-1 py-1">15-16 Years and</th>
+                  <th className="border border-y-lime-500 border-x-0 bg-zinc-800 text-left px-1 py-1">17-18 Divisions</th>
+                  <th className="border border-l-0  border-y-lime-500 border-r-lime-500 bg-zinc-800 text-left px-6 py-1"></th>
+                </tr>
+                <tr>
+                  <td className="border border-r-0 border-lime-500 text-left px-6 py-1 bg-zinc-800">Track & Field Events</td>
+                  <td className="border border-l-0 border-lime-500 text-left px-6 py-1 bg-zinc-800"></td>
+                  <td className="border border-y-lime-500 border-r-zinc-800 text-left px-6 py-1 bg-zinc-800">Multi-Events</td>
+                  <td className="border border-y-lime-500 border-r-lime-500 border-l-zinc-800 text-left px-6 py-1 bg-zinc-800" ></td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Long Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Decathalon (Boys)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Heptathalon (Girls)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">200m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Triple Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Day 1</td>
+                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Day 1</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">400m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Hurdles (10-33")</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">800m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Pole Vault</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Long Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">1500m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (4kg Girls)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (12lbs)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (4kg)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">3000m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Shot Put (12lbs Boys)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">High Jump</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">200m Dash</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">3000m Race-walk</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Discus (1.0kg Girls)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">400m Dash</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">110m Hurdles (10-39" Boys)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Discus (1.6kg Boys)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Day 2</td>
+                  <td className="border border-lime-500 text-left px-6 py-1 bg-zinc-800">Day 2</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">100m Hurdles (10-30" Girls)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Javelin (600g Girls)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">110m Hurdles (10-39")</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Long Jump</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">400m Hurdles (10-30" Girls)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Javelin (800g Boys)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Discus (1.6kg)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Javelin (600g)</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x100m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">2000m Steeplechase (30" girls/36" Boys)<br></br> 18 Hurdle Jumps<br></br> 5 Water Jumps</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Pole Vault</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">800m run</td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x800m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">4x400m Relay</td>
+                  <td className="border border-lime-500 text-left px-6 py-1">Javelin (800g)</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
+                <tr>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                  <td className="border border-lime-500 text-left px-6 py-1">1500m Run</td>
+                  <td className="border border-lime-500 text-left px-6 py-1"></td>
+                </tr>
                 
               </table>
-            <a id="1314"></a>
-            <a id="1516"></a>
+            </div>
 
           </div>
 

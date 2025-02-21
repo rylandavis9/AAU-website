@@ -22,7 +22,7 @@ interface Props {
         <div className="grow shrink"><Link href="/meets" className={buttonVariants({ variant: "ghost" })}>Meets</Link></div>
         <div className="grow shrink">
           <DropdownMenu>
-            <DropdownMenuTrigger>Register</DropdownMenuTrigger>
+            <DropdownMenuTrigger className="font-bold">Register</DropdownMenuTrigger>
             <DropdownMenuContent className="bg-zinc-900">
               <DropdownMenuItem><Link href="/register">Athlete Registration</Link></DropdownMenuItem>
               <DropdownMenuItem><Link href="/coach">Volunteer Coach Form</Link></DropdownMenuItem>
@@ -30,8 +30,8 @@ interface Props {
           </DropdownMenu>
         </div>
         <div className="grow shrink"><Link href="/rules" className={buttonVariants({ variant: "ghost" })}>AAU Rules</Link></div>
-        <div className="grow shrink"><Link href="/fees" className={buttonVariants({ variant: "ghost" })}>Fees</Link></div>
-        <div className="grow shrink"><Link href="/uniforms" className={buttonVariants({ variant: "ghost" })}>Uniforms</Link></div>
+        <div className="grow shrink"><Link href="/frequentlyaskedquestions" className={buttonVariants({ variant: "ghost" })}>FAQ</Link></div>
+        <div className="grow shrink"><Link href="/meetthecoaches" className={buttonVariants({ variant: "ghost" })}>Meet The Coaches</Link></div>
         <div className="grow shrink"><Link href="/contact" className={buttonVariants({ variant: "ghost" })}>Contact Us</Link></div>
       </div>       
     );
