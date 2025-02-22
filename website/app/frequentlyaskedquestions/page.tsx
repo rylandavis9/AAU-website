@@ -7,7 +7,7 @@ export default function Faq() {
       <main className="flex flex-col text-lime-500">
        <Navbar>
         </Navbar>
-        <div className="ml-10" >
+        <div className="" >
           <h1 className="w-full text-center text-4xl font-extrabold " >FAQ</h1>
               <h2 className="ml-5 text-xl font-extrabold " ><br></br>1. When can my child get started?</h2>
                 <ul className="ml-10 text-lg list-disc">
