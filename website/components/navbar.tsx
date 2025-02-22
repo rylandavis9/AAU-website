@@ -7,7 +7,16 @@ import {
 import React, { ReactNode } from 'react';
 import { buttonVariants } from "@/components/ui/button"
 import Link from 'next/link'
-
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer"
 interface Props {
   children?: ReactNode
   // any props that come into the component
@@ -17,20 +26,20 @@ interface Props {
     return (
       <main>
         <div className="hidden sticky top-0 max-md:flex grow shrink bg-zinc-950 border-solid border-lime-500 border-y-4 text-lime-500 items-center place-content-center box-content w-full h-1/5 min-h-14 max-h-20">
-          <DropdownMenu>
-            <DropdownMenuTrigger className="font-bold m-2">SWMO Track Club</DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-zinc-900">
-              <DropdownMenuItem><Link href="/">Home</Link></DropdownMenuItem>
-              <DropdownMenuItem><Link href="/calendar">Calendar</Link></DropdownMenuItem>
-              <DropdownMenuItem><Link href="/importantdates">Important Dates</Link></DropdownMenuItem>
-              <DropdownMenuItem><Link href="/register">Athlete Registration</Link></DropdownMenuItem>
-              <DropdownMenuItem><Link href="/coach">Volunteer Coach Form</Link></DropdownMenuItem>
-              <DropdownMenuItem><Link href="/rules">AAU Rules</Link></DropdownMenuItem>
-              <DropdownMenuItem><Link href="/frequentlyaskedquestions">FAQ</Link></DropdownMenuItem>
-              <DropdownMenuItem><Link href="/meetthecoaches">Meet The Coaches</Link></DropdownMenuItem>
-              <DropdownMenuItem><Link href="/contact">Contact Us</Link></DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+          <Drawer>
+            <DrawerTrigger className="font-bold m-2">SWMO Track Club</DrawerTrigger>
+            <DrawerContent className="bg-zinc-950 items-center">
+              <div className="grow shrink"><Link href="/" className={buttonVariants({ variant: "ghost" })}>Home</Link></div>
+              <div className="grow shrink"><Link href="/calendar" className={buttonVariants({ variant: "ghost" })}>Calendar</Link></div>
+              <div className="grow shrink"><Link href="/importantdates" className={buttonVariants({ variant: "ghost" })}>Important Dates</Link></div>
+              <div className="grow shrink"><Link href="/rules" className={buttonVariants({ variant: "ghost" })}>AAU Rules</Link></div>
+              <div className="grow shrink"><Link href="/register" className={buttonVariants({ variant: "ghost" })}>Athlete Registration</Link></div>
+              <div className="grow shrink"><Link href="/coach" className={buttonVariants({ variant: "ghost" })}>Volunteer Coach Form</Link></div>
+              <div className="grow shrink"><Link href="/frequentlyaskedquestions" className={buttonVariants({ variant: "ghost" })}>FAQ</Link></div>
+              <div className="grow shrink"><Link href="/meetthecoaches" className={buttonVariants({ variant: "ghost" })}>Meet The Coaches</Link></div>
+              <div className="grow shrink"><Link href="/contact" className={buttonVariants({ variant: "ghost" })}>Contact Us</Link></div>
+            </DrawerContent>
+          </Drawer>
         </div>
         <div className="max-md:hidden">
           <div className=" sticky top-0 flex grid-cols-9 grow shrink bg-zinc-950 border-solid border-lime-500 border-y-4 text-lime-500 items-center place-content-center box-content w-full h-1/5 min-h-14 max-h-20">
