@@ -16,9 +16,9 @@ interface Props {
   const Navbar = ({children, ...props}: Props) => {
     return (
       <main>
-        <div className="hidden sticky top-0 max-md:flex grow shrink bg-zinc-950 border-solid border-lime-500 border-y-4 text-lime-500 items-center place-content-center box-content w-full h-1/5 min-h-14 max-h-20">
+        <div className="hidden sticky top-0 max-md:flex grow shrink bg-zinc-950 border-solid border-lime-500 border-y-4 text-lime-500 items-right place-content-right box-content w-full h-1/5 min-h-14 max-h-20">
           <DropdownMenu>
-            <DropdownMenuTrigger className="font-bold">Menu</DropdownMenuTrigger>
+            <DropdownMenuTrigger className="font-bold m-2">Menu</DropdownMenuTrigger>
             <DropdownMenuContent className="bg-zinc-900">
               <DropdownMenuItem><Link href="/">Home</Link></DropdownMenuItem>
               <DropdownMenuItem><Link href="/calendar">Calendar</Link></DropdownMenuItem>
