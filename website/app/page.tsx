@@ -35,8 +35,8 @@ export default function Home() {
           </div>
           <div className="flex m-auto self-stretch flex-1 flex-wrap flex-col lg:flex-row sm:flex-row md:flex-row">
           <div className="flex-1 flex flex-wrap align-center border-solid border-lime-500 border-2">
-          <h2 className="ml-5 text-xl font-extrabold " >Follow the instructions to get registered</h2>
-                <ol className="ml-10 text-lg list-decimal">
+          <h2 className=" text-xl font-extrabold " >Follow the instructions to get registered</h2>
+                <ol className="ml-5 text-lg list-decimal">
                     <li className="ml-10 text-lg list-decimal">Join AAU- <a href="https://aausports.org" target="_blank" className="underline">aausports.org</a>. This supplies us with the insurance we need to be able to offer this program.</li>
                     <ul className="ml-10 text-lg list-disc">
                       <li className="ml-10 text-lg list-disc">Create an account</li>
