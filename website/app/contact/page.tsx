@@ -62,7 +62,7 @@ return (
         <div className="space-y-4 text-lime-500">
           <div className="space-y-2">
             <Label htmlFor="name" className="text-lime-500 ">Name:</Label>
-            <Input className="placeholder:text-lime-200 bg-zinc-800" id="name" placeholder="Enter your name" required/>
+            <Input className="placeholder:text-lime-200 bg-zinc-800" id="name" name="name" placeholder="Enter your name" required/>
           </div>
           <div className="space-y-2">
             <Label htmlFor="email" className="text-lime-500 ">Email:</Label>
