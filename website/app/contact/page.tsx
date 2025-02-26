@@ -25,7 +25,7 @@ export default function Contact() {
       const result = await response.json();
       if (result.success) {
           console.log(result);
-          alert("Your Form Has Been Submitted");
+          
       }
   }
 
@@ -33,7 +33,7 @@ return (
   <>
     <Navbar>
     </Navbar>
-      <form onSubmit={handleSubmit} className="flex flex-col items-center">
+      <form onSubmit="return confirm('Do you want to submit?') {handleSubmit}" className="flex flex-col items-center">
         <div className="w-full max-w-2xl space-y-8 p-6 text-lime-500">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold text-lime-500">Contact Us</h1>
