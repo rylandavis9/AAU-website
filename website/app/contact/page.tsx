@@ -5,35 +5,50 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { buttonVariants } from "@/components/ui/button"
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
   async function handleSubmit(event) {
       event.preventDefault();
-      const response = await fetch("https://api.web3forms.com/submit" , {
-          method: "POST",
-          headers: {
-              "Content-Type": "application/json",
-              Accept: "application/json",
-          },
-          body: JSON.stringify({
-              access_key: "d83481dc-7b52-481b-93eb-658c364426ca",
-              name: event.target.name.value,
-              email: event.target.email.value,
-              message: event.target.message.value,
-          }),
-      });
-      const result = await response.json();
-      if (result.success) {
-          console.log(result);
-          
+      const form = event.currentTarget as HTMLFormElement;
+      const formData = {
+          access_key: "d83481dc-7b52-481b-93eb-658c364426ca",
+          name: form.name.valueOf,
+          email: form.email.value,
+          message: form.message.value,
+      };
+
+      try {
+          const response = await fetch("https://api.web3forms.com/submit", {
+              method: "POST",
+              headers: {
+                  "Content-Type": "application/json",
+                  Accept: "application/json",
+              },
+              body: JSON.stringify(formData),
+          });
+
+          const result = await response.json();
+
+          if (result.success) {
+              toast.success("Form submitted successfully!");
+              form.reset();
+          } else {
+              toast.error("Failed to submit the form.");
+          }
+      } catch (error) {
+          console.error("Error submitting form:", error);
+          toast.error("An error occurred. Please try again.");
       }
   }
+
 
 return (
   <>
     <Navbar>
     </Navbar>
-      <form onSubmit="return confirm('Do you want to submit?') {handleSubmit}" className="flex flex-col items-center">
+      <form onSubmit={handleSubmit} className="flex flex-col items-center">
         <div className="w-full max-w-2xl space-y-8 p-6 text-lime-500">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold text-lime-500">Contact Us</h1>
@@ -56,6 +71,7 @@ return (
         </div>
         </div>
       </form>
+      <ToastContainer />
   </>
 );
 }
