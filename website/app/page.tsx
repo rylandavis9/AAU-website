@@ -9,7 +9,7 @@ export default function Home() {
       <div className="w-screen min-h-screen divide-y-4 divide-lime-500 text-lime-500">
         <Navbar>
         </Navbar>
-        <div className="flex self-stretch flex-1 items-center place-content-center">
+        <div className="flex flex-col self-stretch flex-1 items-center place-content-center">
           <div>
             <h1 className="m-2 text-pretty text-4xl self-center font-bold"> <br></br>SWMO Track Club<br></br> </h1>
           </div>
