@@ -13,15 +13,12 @@ export default function Contact() {
       event.preventDefault();
       const form = event.currentTarget as HTMLFormElement;
 
-      const name = form.querySelector<HTMLInputElement>('input[name="name"]')?.value || "";
-      const email = form.querySelector<HTMLInputElement>('input[name="email"]')?.value || "";
-      const message = form.querySelector<HTMLTextAreaElement>('textarea[name="message"]')?.value || "";
-
-      const formData = {
+      const formData = new FormData(form);
+      const data = {
           access_key: "d83481dc-7b52-481b-93eb-658c364426ca",
-          name,
-          email,
-          message,
+          name: formData.get("name") as string,
+          email: formData.get("email") as string,
+          message: formData.get("message") as string,
       };
 
       try {
@@ -31,7 +28,7 @@ export default function Contact() {
                   "Content-Type": "application/json",
                   Accept: "application/json",
               },
-              body: JSON.stringify(formData),
+              body: JSON.stringify(data),
           });
 
           const result = await response.json();
@@ -66,11 +63,11 @@ return (
           </div>
           <div className="space-y-2">
             <Label htmlFor="email" className="text-lime-500 ">Email:</Label>
-            <Input className="placeholder:text-lime-200 bg-zinc-800 " id="email" placeholder="Enter your email" type="email" required/>
+            <Input className="placeholder:text-lime-200 bg-zinc-800 " id="email" name="email" placeholder="Enter your email" type="email" required/>
           </div>
           <div className="space-y-2">
             <Label htmlFor="message" className="text-lime-500 ">Message:</Label>
-            <Textarea  id="message" placeholder="Enter your message" className="placeholder:text-lime-200 bg-zinc-800 min-h-[100px]" required />
+            <Textarea  id="message" placeholder="Enter your message" name="message" className="placeholder:text-lime-200 bg-zinc-800 min-h-[100px]" required />
           </div>
           <Button type="submit" className={buttonVariants({ variant: "ghost2" })}>Submit</Button>
         </div>
