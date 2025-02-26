@@ -143,7 +143,7 @@ export default function Home() {
               <p className="hidden max-md:flex flex-col m-2 place-content-right text-md w-full">
                 100m Dash, 200m Dash, 400m Dash, 800m Dash, 1500m Run, 1500m Race Walk, 4x100m Relay, 4x400m Relay, Long Jump, High Jump,  Shot Put (6lbs), Turbo Javelin (400g)
               </p>
-              <h1 className="m-2 flex w-full place-content-center text-lg font-bold">9-10 Multi Events (Triathalon)<br></br></h1>
+              <h1 className="m-2 hidden max-md:flex w-full place-content-center text-lg font-bold">9-10 Multi Events (Triathalon)<br></br></h1>
               <p className="hidden max-md:flex flex-col m-2 place-content-right text-md w-full">
               Shot Put (6lbs), High Jump, 200m Dash, 400m Dash
               </p>
@@ -197,7 +197,7 @@ export default function Home() {
               <p className="hidden max-md:flex flex-col m-2 place-content-right text-md w-full">
                 100m Dash, 200m Dash, 400m Dash, 800m Dash, 1500m Run, 3000m Run, 1500m Race Walk, 4x100m Relay, 4x400m Relay, 4x800m Relay, 80m Hurdles (8-30"), Long Jump, High Jump,  Shot Put (6lbs), Turbo Javelin (400g), Discus (1.0kg)
               </p>
-              <h1 className="m-2 flex w-full place-content-center text-lg font-bold">11-12 Multi Events (Pentathalon)<br></br></h1>
+              <h1 className="m-2 hidden max-md:flex w-full place-content-center text-lg font-bold">11-12 Multi Events (Pentathalon)<br></br></h1>
               <p className="hidden max-md:flex flex-col m-2 place-content-right text-md w-full">
               80m Hurdles (8-30"), Shot Put (6lbs), High Jump, 800m Run (Girls), 1500m Run (Boys)
               </p>
@@ -261,7 +261,7 @@ export default function Home() {
               <p className="hidden max-md:flex flex-col m-2 place-content-right text-md w-full">
                 100m Dash, 200m Dash, 400m Dash, 800m Dash, 1500m Run, 3000m Run, 3000m Race Walk, 4x100m Relay, 4x400m Relay, 4x800m Relay, 100m Hurdles (10-30" Girls), 100m Hurdles (10-33" Boys), 200m Hurdles (5-30"), Long Jump, High Jump, Triple Jump, Pole Vault, Shot Put (6lbs Girls), Shot Put (4kg Boys), Javelin (600g), Discus (1.0kg)
               </p>
-              <h1 className="m-2 flex w-full place-content-center text-lg font-bold">13-14 Multi Events (Pentathalon)<br></br></h1>
+              <h1 className="m-2 hidden max-md:flex w-full place-content-center text-lg font-bold">13-14 Multi Events (Pentathalon)<br></br></h1>
               <p className="hidden max-md:flex flex-col m-2 place-content-right text-md w-full">
               100m Hurdles (10-30" Girls), 100m Hurdles (10-33" Boys), Shot Put (6lbs Girls), Shot Put (4kg Boys), High Jump, 800m Run (Girls), 1500m Run (Boys)
               </p>
