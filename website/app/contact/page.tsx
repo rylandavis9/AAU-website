@@ -9,7 +9,7 @@ import { buttonVariants } from "@/components/ui/button"
 export default function Contact() {
   async function handleSubmit(event) {
       event.preventDefault();
-      const response = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch("https://api.web3forms.com/submit" , {
           method: "POST",
           headers: {
               "Content-Type": "application/json",
@@ -40,15 +40,15 @@ return (
         </div>
         <div className="space-y-4 text-lime-500">
           <div className="space-y-2">
-            <Label htmlFor="name" className="text-lime-500 ">Name</Label>
+            <Label htmlFor="name" className="text-lime-500 ">Name:</Label>
             <Input className="placeholder:text-lime-200 bg-zinc-800" id="name" placeholder="Enter your name" required/>
           </div>
           <div className="space-y-2">
-            <Label htmlFor="email" className="text-lime-500 ">Email</Label>
+            <Label htmlFor="email" className="text-lime-500 ">Email:</Label>
             <Input className="placeholder:text-lime-200 bg-zinc-800 " id="email" placeholder="Enter your email" type="email" required/>
           </div>
           <div className="space-y-2">
-            <Label htmlFor="message" className="text-lime-500 ">Message</Label>
+            <Label htmlFor="message" className="text-lime-500 ">Message:</Label>
             <Textarea  id="message" placeholder="Enter your message" className="placeholder:text-lime-200 bg-zinc-800 min-h-[100px]" required />
           </div>
           <Button type="submit" className={buttonVariants({ variant: "ghost2" })}>Submit</Button>
