@@ -14,9 +14,9 @@ export default function Contact() {
       const form = event.currentTarget as HTMLFormElement;
       const formData = {
           access_key: "d83481dc-7b52-481b-93eb-658c364426ca",
-          name: event.target.name.value,
-          email: form.email.value,
-          message: form.message.value,
+          name: (form.elements.namedItem("name") as HTMLInputElement)?.value || "",
+          email: (form.elements.namedItem("email") as HTMLInputElement)?.value || "",
+          message: (form.elements.namedItem("message") as HTMLInputElement)?.value || "",
       };
 
       try {
