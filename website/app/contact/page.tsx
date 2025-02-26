@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 import { buttonVariants } from "@/components/ui/button"
 
 export default function Contact() {
-  async function handleSubmit(e: { preventDefault: () => void; target: { name: { value: any; }; email: { value: any; }; message: { value: any; }; }; }) {
-      e.preventDefault();
+  async function handleSubmit(event) {
+      event.preventDefault();
       const response = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
           headers: {
@@ -17,9 +17,9 @@ export default function Contact() {
           },
           body: JSON.stringify({
               access_key: "4fc73e2b-37b6-4e3f-be79-172dc36e95aa",
-              name: e.target.name.value,
-              email: e.target.email.value,
-              message: e.target.message.value,
+              name: event.target.name.value,
+              email: event.target.email.value,
+              message: event.target.message.value,
           }),
       });
       const result = await response.json();
