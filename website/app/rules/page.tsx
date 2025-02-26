@@ -336,7 +336,7 @@ export default function Home() {
             <a id="1516"></a>
             <div className="flex flex-col m-10 align-center justify-center">
               <a id="1516"></a>
-              <h1 className="m-2 hidden max-md:flex w-full place-content-center text-lg font-bold">15-16 & 17-18 Events<br></br></h1>
+              <h1 className="m-2 flex w-full place-content-center text-lg font-bold">15-16 & 17-18 Events<br></br></h1>
               <p className="hidden max-md:flex flex-col m-2 place-content-right text-md w-full">
                 100m Dash, 200m Dash, 400m Dash, 800m Dash, 1500m Run, 3000m Run, 3000m Race Walk, 4x100m Relay, 4x400m Relay, 4x800m Relay, 2000m Steeplechase (30” Girls/36” Boys) 18 Hurdle Jumps 5 Water Jumps, 110m Hurdles (10-39" Boys), 100m Hurdles (10-30" Girls), 400m Hurdles (10-30" Girls), Long Jump, High Jump, Triple Jump, Pole Vault, Shot Put (12lbs Boys), Shot Put (4kg Girls), Javelin (600g Girls), Javelin (800g Boys), Discus (1.0kg Girls), Discus (1.6kg Boys)
               </p>
