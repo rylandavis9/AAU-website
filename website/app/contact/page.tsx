@@ -16,7 +16,7 @@ export default function Contact() {
               Accept: "application/json",
           },
           body: JSON.stringify({
-              access_key: "4fc73e2b-37b6-4e3f-be79-172dc36e95aa",
+              access_key: "d83481dc-7b52-481b-93eb-658c364426ca",
               name: event.target.name.value,
               email: event.target.email.value,
               message: event.target.message.value,
