@@ -12,11 +12,16 @@ export default function Contact() {
   async function handleSubmit(event) {
       event.preventDefault();
       const form = event.currentTarget as HTMLFormElement;
+
+      const name = form.querySelector<HTMLInputElement>('input[name="name"]')?.value || "";
+      const email = form.querySelector<HTMLInputElement>('input[name="email"]')?.value || "";
+      const message = form.querySelector<HTMLTextAreaElement>('textarea[name="message"]')?.value || "";
+
       const formData = {
           access_key: "d83481dc-7b52-481b-93eb-658c364426ca",
-          name: (form.elements.namedItem("name") as HTMLInputElement)?.value || "",
-          email: (form.elements.namedItem("email") as HTMLInputElement)?.value || "",
-          message: (form.elements.namedItem("message") as HTMLInputElement)?.value || "",
+          name,
+          email,
+          message,
       };
 
       try {
