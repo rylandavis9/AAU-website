@@ -89,12 +89,12 @@ export default function Home() {
               </tr>
             </table>
             <div className="" >
-              <h2 className="ml-5 text-xl font-extrabold " >Proof Of Age</h2>
-                <ul className="ml-10 text-lg list-disc">
+              <h2 className="mx-2 text-xl font-extrabold " >Proof Of Age</h2>
+                <ul className="ml-8 text-lg list-disc">
                     <li>a. Proof of age may be required at District, Regional Qualifier, and National Championship events and whenever required and/or challenged.</li>
-                        <ul className="ml-10 text-lg list-disc">
+                        <ul className="ml-8 text-lg list-disc">
                             <li>Acceptable Forms:</li>
-                            <ul className="ml-10 text-lg list-disc">
+                            <ul className="ml-8 text-lg list-disc">
                               <li>Original Birth Certificate;</li>
                               <li>A notarized original birth certificate from the appropriate visiting authority;</li>
                               <li>A US Military Government Identification Card;</li>
