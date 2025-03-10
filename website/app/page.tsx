@@ -29,7 +29,7 @@ export default function Home() {
               </p>
               <a id="pm"></a>
               <p className="m-2 text-pretty text-lg font-bold"><br></br>2025 Parent Meeting!<br></br></p>
-              <p className="m-2 text-pretty text-lg">Monday, March 10th<br></br>5:30pm<br></br>Park in the WCHS pool parking lot
+              <p className="m-2 text-pretty text-lg">Monday, March 24th<br></br>5:30pm<br></br>Park in the WCHS pool parking lot
                 <br></br>Meet in Cardinal Theatre<br></br>
               </p>
               <a href="https://calendar.google.com/calendar/u/0?cid=Y18yMmVhZTQ1MzRlZDZkNmQ2ZDVmODU2ODVhNmU2NGJmMWY5OGIwYzhmMjY1MDZhOGQ2MjkzMGQxNzYyNDhmZmIwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank" className="underline">Get the sharable calendar link here!</a>
