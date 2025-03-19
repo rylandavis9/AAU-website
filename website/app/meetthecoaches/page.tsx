@@ -3,7 +3,7 @@ import  Navbar  from "@/components/navbar"
 
 export default function Meets() {
   return (
-      <main className="flex align-middle flex-col text-lime-500">
+      <main className="flex align-middle flex-col">
        <Navbar>
         </Navbar>
         <h1 className="m-2 text-pretty text-4xl self-center font-bold"><br></br>Meet The Coaches<br></br></h1>

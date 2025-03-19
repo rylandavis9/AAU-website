@@ -50,23 +50,23 @@ return (
     <Navbar>
     </Navbar>
       <form onSubmit={handleSubmit} className="flex flex-col items-center">
-        <div className="w-full max-w-2xl space-y-8 p-6 text-lime-500">
+        <div className="w-full max-w-2xl space-y-8 p-6 ">
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold text-lime-500">Contact Us</h1>
-          <p className="text-lime-500 ">Please fill in the form below to get in touch.</p>
+          <h1 className="text-3xl font-bold ">Contact Us</h1>
+          <p className=" ">Please fill in the form below to get in touch.</p>
         </div>
-        <div className="space-y-4 text-lime-500">
+        <div className="space-y-4 ">
           <div className="space-y-2">
-            <Label htmlFor="name" className="text-lime-500 ">Name:</Label>
-            <Input className="placeholder:text-lime-200 bg-zinc-800" id="name" name="name" placeholder="Enter your name" required/>
+            <Label htmlFor="name" className=" ">Name:</Label>
+            <Input className="placeholder:text-[#0A0F00] bg-[#7f7979]" id="name" name="name" placeholder="Enter your name" required/>
           </div>
           <div className="space-y-2">
-            <Label htmlFor="email" className="text-lime-500 ">Email:</Label>
-            <Input className="placeholder:text-lime-200 bg-zinc-800 " id="email" name="email" placeholder="Enter your email" type="email" required/>
+            <Label htmlFor="email" className=" ">Email:</Label>
+            <Input className="placeholder:text-[#0A0F00] bg-[#7f7979] " id="email" name="email" placeholder="Enter your email" type="email" required/>
           </div>
           <div className="space-y-2">
-            <Label htmlFor="message" className="text-lime-500 ">Message:</Label>
-            <Textarea  id="message" placeholder="Enter your message" name="message"  className="placeholder:text-lime-200 bg-zinc-800 min-h-[100px]" required />
+            <Label htmlFor="message" className=" ">Message:</Label>
+            <Textarea  id="message" placeholder="Enter your message" name="message"  className="placeholder:text-[#0A0F00] bg-[#7f7979] min-h-[100px]" required />
           </div>
           <Button type="submit" className={buttonVariants({ variant: "ghost2" })}>Submit</Button>
         </div>

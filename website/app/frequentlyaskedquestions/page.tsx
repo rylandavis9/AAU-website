@@ -4,7 +4,7 @@ import  Navbar  from "@/components/navbar"
 
 export default function Faq() {
   return (
-      <main className="flex flex-col text-lime-500">
+      <main className="flex flex-col ">
        <Navbar>
         </Navbar>
         <div className="" >
