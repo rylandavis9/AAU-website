@@ -34,7 +34,7 @@ interface Props {
           </div>
           
           <Drawer>
-            <DrawerTrigger className="font-bold m-2 ml-auto ">
+            <DrawerTrigger className="font-bold m-2 ml-auto">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 fill-[#51cb20] stroke-[#51cb20]" viewBox="0 0 24 24" ><path d="M4 18L20 18" stroke="#51cb20" stroke-width="2" stroke-linecap="round"/><path d="M4 12L20 12" stroke="#51cb20" stroke-width="2" stroke-linecap="round"/><path d="M4 6L20 6" stroke="#51cb20" stroke-width="2" stroke-linecap="round"/></svg>
             </DrawerTrigger>
             <DrawerContent className="bg-[#1d252b] items-center">
