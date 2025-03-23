@@ -52,7 +52,7 @@ export default function Home() {
                     </ul>
                     <li className="ml-10 text-lg list-decimal">Register for the SWMO Track Club</li>
                     <ul className="ml-10 text-lg list-disc">
-                      <li className="ml-10 text-lg list-disc">Cost is $75. This pays for our equiptment, club fees, and other miscellaneous expenses.</li>
+                      <li className="ml-10 text-lg list-disc">Cost is $75. This pays for our equipment, club fees, and other miscellaneous expenses.</li>
                     </ul>
                     <li className="ml-10 text-lg list-decimal">Download the Band app</li>
                     <ul className="ml-10 text-lg list-disc">
