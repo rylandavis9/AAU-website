@@ -16,7 +16,7 @@ body {
   :root {
     --background: 0, 0%, 88%;
     --foreground: 206, 19%, 14%;
-    --card: #0A0F0D;
+    --card: #0A0F0D; 
     --card-foreground: #C7C4E8;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
