@@ -64,9 +64,9 @@ export default function Home() {
                         <li>Ex: Practice cancellation, meet information, meet entry deadlines, etc.</li>
                       </ul>
                     </ul>
-                    <li className="ml-5 text-lg list-decimal">Order your complementary t-shirt</li>
+                    <li className="ml-5 text-lg list-decimal">Uniform Store</li>
                     <ul className="ml-5 text-lg list-disc">
-                      <li className="ml-5 text-lg list-disc"><a href="https://swmotrackclubuniforms.itemorder.com/shop/sale/" target="_blank" className="underline">Link</a></li>
+                      <li className="ml-5 text-lg list-disc"><a href="https://swmotrackclub.itemorder.com/shop/sale/" target="_blank" className="underline">Link</a></li>
                     </ul>    
                 </ol>
           </div>
