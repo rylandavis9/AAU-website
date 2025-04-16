@@ -49,7 +49,7 @@ return (
   <>
     <Navbar>
     </Navbar>
-      <form onSubmit={handleSubmit} className="flex flex-col items-center max-xl:pt-[23%]">
+      <form onSubmit={handleSubmit} className="flex flex-col items-center pt-24">
         <div className="w-full max-w-2xl space-y-8 p-6 ">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold ">Contact Us</h1>

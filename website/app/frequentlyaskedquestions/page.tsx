@@ -4,7 +4,7 @@ import  Navbar  from "@/components/navbar"
 
 export default function Faq() {
   return (
-      <main className="flex flex-col max-xl:pt-[23%]">
+      <main className="flex flex-col pt-24">
        <Navbar>
         </Navbar>
         <div className="" >
