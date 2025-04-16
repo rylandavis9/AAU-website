@@ -5,7 +5,7 @@ import  Navbar  from "@/components/navbar"
 
 export default function Calendar() {
   return (
-      <main className="flex flex-col text-lime-500">
+      <main className="flex flex-col text-lime-500 max-xl:pt-[23%]">
         <Navbar>
         </Navbar>
         <a href="https://calendar.google.com/calendar/u/0?cid=Y18yMmVhZTQ1MzRlZDZkNmQ2ZDVmODU2ODVhNmU2NGJmMWY5OGIwYzhmMjY1MDZhOGQ2MjkzMGQxNzYyNDhmZmIwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank" className="underline mx-10">Get the sharable calendar link here!</a>

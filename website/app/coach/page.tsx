@@ -3,7 +3,7 @@ import  Navbar  from "@/components/navbar"
 
 export default function Coach() {
   return (
-      <main className="items-center">
+      <main className="items-center max-xl:pt-[23%]">
        <Navbar>
         </Navbar>
         <div className="flex items-center">

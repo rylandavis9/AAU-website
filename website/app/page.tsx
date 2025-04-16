@@ -6,12 +6,12 @@ import SvgComponent from "@/components/icon";
 
 export default function Home() {
   return (
-    <main className="w-screen min-h-screen flex flex-col">
+    <main className="w-screen min-h-screen flex flex-col max-xl:pt-[23%]">
       <Navbar>
       </Navbar>
       <div className="w-screen min-h-screen 3divide-y-4 divide-foreground ">
         <div className="flex self-stretch flex-1 items-center place-content-center">
-          <SvgComponent className="flex grow shrink px-[5%] py-[10%] max-md:pt-28 h-full w-full"></SvgComponent>
+          <SvgComponent className="flex max-xl:hidden grow shrink px-[5%] py-[10%] h-full w-full "></SvgComponent>
         </div>
         <div className="flex m-auto self-stretch flex-1 flex-wrap flex-col lg:flex-row sm:flex-row md:flex-row">
           <div className="flex-1 flex flex-wrap justify-items-start border-solid border-foreground border-y-4 border-2">

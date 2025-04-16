@@ -6,7 +6,7 @@ import  Navbar  from "@/components/navbar"
 
 export default function Home() {
   return (
-      <main className="flex align-middle flex-col align-center justify-center" >
+      <main className="flex align-middle flex-col align-center justify-center max-xl:pt-[23%]" >
        <Navbar>
         </Navbar>
         <div className="grow shrink flex">
