@@ -11,8 +11,8 @@ export default function Faq() {
           <h1 className="w-full text-center text-4xl font-extrabold " >FAQ</h1>
               <h2 className="mx-2 text-xl font-extrabold " ><br></br>1. When can my child get started?</h2>
                 <ul className="ml-8 mr-2 text-lg list-disc">
-                    <li className="ml-8 mr-2 text-lg list-disc">2025 season will run from Monday, March 31st through Saturday, June 28th or until you are finished competing. This gives us 8 potential practices before the first meet and goes through regionals. </li>
-                    <li className="ml-8 mr-2 text-lg list-disc">K-6th 3/31/25</li>
+                    <li className="ml-8 mr-2 text-lg list-disc">2026 season will run from Monday, March 30th through Saturday, June 18th or until you are finished competing. This gives us 3 potential practices before the first meet, 6 before the second, and goes through regionals. </li>
+                    <li className="ml-8 mr-2 text-lg list-disc">K-6th 3/30/26</li>
                     <li className="ml-8 mr-2 text-lg list-disc">JH & HS can join after their seasons end</li>    
                 </ul>
               <h2 className="mx-2 text-xl font-extrabold " ><br></br>2. What is the required commitment?</h2>
@@ -30,9 +30,9 @@ export default function Faq() {
                 </ul>
               <h2 className="mx-2 text-xl font-extrabold " ><br></br>3. What is the cost breakdown</h2>
                 <ul className="ml-8 mr-2 text-lg list-disc">
-                    <li className="ml-8 mr-2 text-lg list-disc">AAU membership $22</li>
+                    <li className="ml-8 mr-2 text-lg list-disc">AAU membership $24</li>
                     <li className="ml-8 mr-2 text-lg list-disc">SWMO Track Club fee $75</li>
-                    <li className="ml-8 mr-2 text-lg list-disc">Meets entry fees as of 2024</li>
+                    <li className="ml-8 mr-2 text-lg list-disc">Meets entry fees as of 2025</li>
                     <ul className="ml-16 mr-2 text-lg list-disc">
                       <li>Girard $25</li>
                       <li>Neosho $25</li>
