@@ -17,7 +17,7 @@ export default function ImportantDates() {
                     <p className="m-2 text-pretty text-md font-bold">June 6th Topeka<br></br>June 12-13th Ray Pec</p>
                   <br></br>
               </a>
-            <a href="/calendar" >Region 16 Qualifier<br></br>
+            <a href="/calendar" >Region 16 Qualifier
                 <br></br>
                     <p className="m-2 text-pretty text-md font-bold">June 23-26th Oklahoma City</p>
                 <br></br>
